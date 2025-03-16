@@ -1,7 +1,3 @@
-provider "aws" {
-  region = "us-east-1"
-}
-
 resource "aws_emr_cluster" "cluster" {
   name          = "emr-thbulls"
   release_label = "emr-7.0.0"
